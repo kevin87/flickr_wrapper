@@ -1,0 +1,19 @@
+= Flickr Wrapper
+
+Flickr Wrapper is a gem to access flickr API and used by Personal Project
+
+== Simple
+
+ require 'flickr_wrapper'
+
+ FlickrWrapper::Client.api_key = "API Key"
+
+ responses = FlickrWrapper::Client.get_photos("#{tags}")
+
+ response["photos"]["photo"] is an array.
+
+== TODO
+
+* Only flickr.photos.search available now
+
+This project rocks and uses MIT-LICENSE.
