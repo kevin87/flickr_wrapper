@@ -4,7 +4,7 @@ PATH
     flickr_wrapper (0.0.1)
       faraday
       faraday_middleware
-      rails (~> 4.1.1)
+      rails
 
 GEM
   remote: https://rubygems.org/
